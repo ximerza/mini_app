@@ -6,7 +6,7 @@ Esta aplicación web consume la API pública de JSONPlaceholder para mostrar una
 
 El objetivo principal es visualizar la relación entre usuarios y sus tareas, permitiendo explorar qué actividades tiene cada usuario y su estado (completado o pendiente).
 
-**API utilizada
+**API utilizada**
 
 https://jsonplaceholder.typicode.com/
 
