@@ -36,7 +36,7 @@ Endpoints utilizados:
 
 -Filtrar tareas por: Completadas, Pendientes, Todas
 
-#Flujo de la aplicación
+**Flujo de la aplicación**
 
 Se cargan los usuarios desde la API
 
