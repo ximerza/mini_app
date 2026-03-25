@@ -1,6 +1,6 @@
 # mini_app
 
-**Deescripcion**
+**Descripcion**
 
 Esta aplicación web consume la API pública de JSONPlaceholder para mostrar una lista de usuarios y sus tareas asociadas.
 
