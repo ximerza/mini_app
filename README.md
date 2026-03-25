@@ -28,13 +28,13 @@ Endpoints utilizados:
 
 **Tareas por usuario**
 
-Mostrar tareas asociadas a un usuario 
+-Mostrar tareas asociadas a un usuario 
 
-Lista de tareas del usuario seleccionado
+-Lista de tareas del usuario seleccionado
 
 **Filtros de tareas**
 
-Filtrar tareas por: Completadas, Pendientes, Todas
+-Filtrar tareas por: Completadas, Pendientes, Todas
 
 #Flujo de la aplicación
 
