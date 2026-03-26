@@ -1,4 +1,5 @@
-import Header from "../components/usuarios/header"; 
+import Header from "../components/usuarios/header";
+import Footer from '../components/usuarios/footer';
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
           Esta es la página de inicio de tu aplicación.
         </p>
       </main>
+      <Footer />
     </div>
   );
 }
-    
