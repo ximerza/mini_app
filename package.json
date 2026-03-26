@@ -1,0 +1,10 @@
+{
+  "name": "mini-app-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix mini-app",
+    "build": "npm run build --prefix mini-app",
+    "start": "npm run start --prefix mini-app",
+    "lint": "npm run lint --prefix mini-app"
+  }
+}
