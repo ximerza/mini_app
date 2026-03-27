@@ -2,11 +2,22 @@ import { Usuario } from "@/src/models/Usuario";
 
 interface ItemUsuarioProps {
     usuario: Usuario;
+    onSelect?: (usuario: Usuario) => void;
+    isSelected?: boolean;
 }
 
-const ItemUsuario = ({ usuario }: ItemUsuarioProps) => {
+const ItemUsuario = ({ usuario, onSelect, isSelected }: ItemUsuarioProps) => {
     return (
-        <li className="bg-white shadow-md rounded-lg p-6 mb-6 border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+        <li
+            onClick={() => onSelect?.(usuario)}
+            className={`bg-white shadow-md rounded-lg p-6 mb-6 border-2 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 ${
+                onSelect ? "cursor-pointer" : ""
+            } ${
+                isSelected
+                    ? "border-blue-500 ring-2 ring-blue-200 shadow-blue-100"
+                    : "border-gray-100"
+            }`}
+        >
             <div className="flex items-center space-x-4">
                 <div className="flex-shrink-0">
                     <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-full flex items-center justify-center text-white font-bold text-xl shadow-inner">
